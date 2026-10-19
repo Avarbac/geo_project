@@ -1,0 +1,8 @@
+{
+  "phi0": 54.69696295,
+  "lambda0": 56.0476868,
+  "earth_radius_m": 6371000.0,
+  "points_count": 818,
+  "polygons_count": 1,
+  "projection": "local equirectangular; x=R*(lon-lambda0)*cos(phi0), y=R*(lat-phi0); rounded to integer metres"
+}

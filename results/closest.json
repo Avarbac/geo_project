@@ -1,0 +1,25 @@
+{
+  "algorithm": "divide and conquer O(n log n)",
+  "points": 818,
+  "index_pair": [
+    798,
+    308
+  ],
+  "id_pair": [
+    "12409013452",
+    "1429968701"
+  ],
+  "point_pair": [
+    [
+      735,
+      13985
+    ],
+    [
+      736,
+      13984
+    ]
+  ],
+  "distance_m": 1.4142135623730951,
+  "distance_checks": 936,
+  "elapsed_seconds": 0.002706681999995908
+}

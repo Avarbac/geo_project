@@ -1,0 +1,13 @@
+{
+  "points": 818,
+  "inside_manual": 168,
+  "inside_shapely": 168,
+  "inside_mismatches": 0,
+  "mismatch_indices": [],
+  "manual_hull_vertices": 10,
+  "shapely_hull_vertices": 10,
+  "manual_hull_area_m2": 1201734503.5,
+  "shapely_hull_area_m2": 1201734503.5,
+  "closest_pair_distance_m": 1.4142135623730951,
+  "closest_pair_checks": 936
+}

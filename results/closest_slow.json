@@ -1,0 +1,25 @@
+{
+  "algorithm": "brute force O(n²)",
+  "points": 818,
+  "index_pair": [
+    308,
+    798
+  ],
+  "id_pair": [
+    "1429968701",
+    "12409013452"
+  ],
+  "point_pair": [
+    [
+      736,
+      13984
+    ],
+    [
+      735,
+      13985
+    ]
+  ],
+  "distance_m": 1.4142135623730951,
+  "distance_checks": 334153,
+  "elapsed_seconds": 0.06305766500003074
+}

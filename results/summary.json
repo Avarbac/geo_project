@@ -1,0 +1,97 @@
+{
+  "data": {
+    "points": 818,
+    "timestamp_osm_base": "2026-10-02T20:21:34Z",
+    "district": "Кировский район, Уфа",
+    "osm_relation_id": 5523570,
+    "inside": 168,
+    "outside": 650
+  },
+  "projection": {
+    "phi0": 54.69696295,
+    "lambda0": 56.0476868,
+    "method": "local equirectangular projection, rounded to integer metres"
+  },
+  "hull": {
+    "vertices": 10,
+    "area_km2": 1201.7345035,
+    "westmost_point_xy": [
+      -16164,
+      12104
+    ],
+    "westmost_is_hull_vertex": true,
+    "farthest_hull_pair": {
+      "id1": "1427607967",
+      "name1": "Булгаково",
+      "id2": "1967204687",
+      "name2": "Сады Каршиды",
+      "planar_m": 49937.5024205256,
+      "spherical_haversine_m": 49937.31023228893,
+      "difference_m": -0.19218823666597018
+    }
+  },
+  "closest_pair": {
+    "id1": "12409013452",
+    "name1": "Парк Победы",
+    "id2": "1429968701",
+    "name2": "Парк Победы",
+    "planar_rounded_m": 1.4142135623730951,
+    "spherical_haversine_m": 2.324375895385688,
+    "difference_m": 0.910162333012593,
+    "divide_conquer_checks": 936
+  },
+  "benchmarks": [
+    {
+      "n": 204,
+      "divide_conquer": {
+        "distance_checks": 217,
+        "elapsed_seconds": 0.00044777599998724327,
+        "distance_m": 11.40175425099138
+      },
+      "brute_force": {
+        "distance_checks": 20706,
+        "elapsed_seconds": 0.003294485000083114,
+        "distance_m": 11.40175425099138
+      }
+    },
+    {
+      "n": 409,
+      "divide_conquer": {
+        "distance_checks": 462,
+        "elapsed_seconds": 0.0009817530000191255,
+        "distance_m": 11.40175425099138
+      },
+      "brute_force": {
+        "distance_checks": 83436,
+        "elapsed_seconds": 0.012152856999932737,
+        "distance_m": 11.40175425099138
+      }
+    },
+    {
+      "n": 818,
+      "divide_conquer": {
+        "distance_checks": 936,
+        "elapsed_seconds": 0.0023613939999904687,
+        "distance_m": 1.4142135623730951
+      },
+      "brute_force": {
+        "distance_checks": 334153,
+        "elapsed_seconds": 0.048003429999994296,
+        "distance_m": 1.4142135623730951
+      }
+    }
+  ],
+  "validation": {
+    "points": 818,
+    "inside_manual": 168,
+    "inside_shapely": 168,
+    "inside_mismatches": 0,
+    "mismatch_indices": [],
+    "manual_hull_vertices": 10,
+    "shapely_hull_vertices": 10,
+    "manual_hull_area_m2": 1201734503.5,
+    "shapely_hull_area_m2": 1201734503.5,
+    "closest_pair_distance_m": 1.4142135623730951,
+    "closest_pair_checks": 936
+  }
+}
